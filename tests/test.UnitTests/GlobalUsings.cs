@@ -1,6 +1,7 @@
-﻿global using System.Runtime.CompilerServices;
+global using System.Runtime.CompilerServices;
 global using Ardalis.SharedKernel;
 global using test.Core.ContributorAggregate;
+global using test.Core.StoreAggregate;
 global using test.UseCases.Contributors.Create;
 global using Shouldly;
 global using MediatR;
