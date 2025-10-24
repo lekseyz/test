@@ -1,0 +1,30 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="CleanArchitecture.nuspec" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/test.AspireHost/test.AspireHost.csproj" />
+    <Project Path="src/test.ServiceDefaults/test.ServiceDefaults.csproj" />
+    <Project Path="src/test.Core/test.Core.csproj" />
+    <Project Path="src/test.Infrastructure/test.Infrastructure.csproj" />
+    <Project Path="src/test.UseCases/test.UseCases.csproj" />
+    <Project Path="src/test.Web/test.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/test.FunctionalTests/test.FunctionalTests.csproj">
+      <BuildDependency Project="src/test.Web/test.Web.csproj" />
+    </Project>
+    <Project Path="tests/test.IntegrationTests/test.IntegrationTests.csproj">
+      <BuildDependency Project="src/test.Infrastructure/test.Infrastructure.csproj" />
+    </Project>
+    <Project Path="tests/test.UnitTests/test.UnitTests.csproj" />
+  </Folder>
+</Solution>
