@@ -1,0 +1,98 @@
+# ---> .NET
+## Временные файлы сборки
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Пользовательские файлы
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Папки публикации и отладки
+*.publish.xml
+*.pubxml
+*.publishproj
+
+## Кэш NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Конфигурации
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# ---> ASP.NET Core
+## IIS Express
+.vs/
+*.vspscc
+.vscode/
+wwwroot/lib/
+wwwroot/node_modules/
+
+## Node / frontend (если используешь React, Angular и т.п.)
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+build/
+
+# ---> JetBrains Rider
+.idea/
+*.sln.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+.idea/**/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# ---> macOS / Windows системные
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---> Тесты и покрытия
+TestResult*/
+*.coverage
+*.coveragexml
+*.testsettings
+*.trx
+
+# ---> Docker / контейнеры
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
+
+# ---> Rider специфичные кеши
+.idea/.idea_modules/
+.idea/httpRequests/
+.idea/caches/
+.idea/shelf/
+
+# ---> Средства мониторинга / профилирования
+*.dotCover
+*.ncrunchsolution
+*.ncrunchproject
+
+# ---> Temporary
+*.tmp
+*.temp
+
